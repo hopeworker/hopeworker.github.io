@@ -9,7 +9,7 @@ source:
 https://opensource.com/article/19/5/run-your-blog-github-pages-python
 
 
-
+```text
 GitHub is a hugely popular web service for source code control that uses Git to synchronize local files with copies kept on GitHub's servers so you can easily share and back up your work.
 
 In addition to providing a user interface for code repositories, GitHub also enables users to publish web pages directly from a repository. The website generation package GitHub recommends is Jekyll, written in Ruby. Since I'm a bigger fan of Python, I prefer Pelican, a Python-based blogging platform that works well with GitHub.
@@ -104,7 +104,7 @@ OK, now you can get bloggy! All of your blog posts, photos, images, PDFs, etc., 
 
 $ cd content
 $ mkdir pages images
-# $ cp /Users/username/SecretStash/HotPhotoOfMe.jpg images
+$ cp /Users/username/SecretStash/HotPhotoOfMe.jpg images
 $ touch first-post.md
 $ touch pages/about.md
 
@@ -127,7 +127,7 @@ Now, open the empty file pages/about.md and add this text:
 title: About
 date: <today's date>
 
-#![So Schmexy][my_sweet_photo]
+![So Schmexy][my_sweet_photo]
 
 Hi, I am <username> and I wrote this epic collection of Interweb
 wisdom. In days of yore, much of this would have been deemed sorcery
@@ -135,7 +135,7 @@ and I would probably have been burned at the stake.
 
 😆
 
-#[my_sweet_photo]: {static}/images/HotPhotoOfMe.jpg
+[my_sweet_photo]: {static}/images/HotPhotoOfMe.jpg
 
 You now have three new pieces of web content in your content directory. Of the content branch. That's a lot of content.
 Publish
@@ -169,5 +169,5 @@ Now the exciting part is here when you get to view what you've published for eve
 https://username.github.io
 
 Congratulations on your new blog, self-published on GitHub! You can follow this pattern whenever you want to add more pages or articles. Happy blogging.
-
+```
 
